@@ -39,7 +39,6 @@ return (
           {openId === 'upcoming-shows' && (
             <div className="accordion-content">
               <a href="" target="_blank">May 9 | Atrium Music Lounge Warehouse Opening (Free with RSVP)  Fort Collins, CO</a>
-              <a href="" target="_blank"> June 2026 | House On Tap @Breckenridge Brewing (Free Show - More Info TBA)  Fort Collins, CO</a>
             </div>
           )}
         </div>
