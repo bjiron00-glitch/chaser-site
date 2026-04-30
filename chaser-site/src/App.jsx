@@ -38,7 +38,7 @@ return (
           </button>
           {openId === 'upcoming-shows' && (
             <div className="accordion-content">
-              <a href="" target="_blank">May 9 | Atrium Music Lounge Warehouse Opening (Free with RSVP)  Fort Collins, CO</a>
+              <a href="" target="_blank">May 9 | Atrium Music Lounge Warehouse Opening (Free with RSVP - More Info TBA)  Fort Collins, CO</a>
             </div>
           )}
         </div>
