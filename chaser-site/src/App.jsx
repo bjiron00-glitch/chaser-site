@@ -16,7 +16,7 @@ return (
 
       {/* REACT ACCORDION SECTION */}
       <div className="accordion-section">
-        <h3>THE GOOD STUFF (Test)</h3>
+        <h3>THE GOOD STUFF</h3>
         
         
         <div className="accordion-item">
