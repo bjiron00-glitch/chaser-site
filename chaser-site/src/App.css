@@ -1,0 +1,267 @@
+:root {
+  --chaser-orange: #ff4500;
+  --bg-black: #1b1a1a;
+  --card-gray: #1a1a1a;
+  --text-white: #ffffff;
+}
+
+body {
+  background-color: var(--bg-black);
+  color: var(--text-white);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main-logo {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: 70%;      
+  height: auto;      
+  background: none;  
+  border: none;
+}
+
+.chaser-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 10px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Accordion Styles */
+.accordion-section {
+  margin: 20px 0;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.accordion-item {
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  max-width: 1000px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 18px 24px;
+  background: #1a1a1a;
+  color: #ff4500;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 1.5rem; 
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: Center;
+  transition: all 0.2s ease;
+  margin-top: 10px;
+  position: relative;
+}
+
+.accordion-header:hover {
+  border-color: #ff4500;
+  background: #222;
+}
+
+.accordion-header span {
+position: absolute;
+right: 15px;
+}
+
+.accordion-content {
+  background: #111;
+  border: 1px solid #333;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.accordion-content a {
+  padding: 15px 25px;
+  color: #ffffff; 
+  text-decoration: none; 
+  font-size: 1rem;
+  border-top: 1px solid #222;
+  transition: background 0.2s;
+  font-weight: bold;
+}
+
+.accordion-content a:hover {
+  background: #ff4500; 
+  color: #000; 
+}
+
+.creator-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 20px;
+}
+
+.creator-logo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; 
+  border: 2px solid #333;
+  border-radius: 15px;
+  padding: 0;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.creator-logo:hover {
+  transform: scale(1.1);
+  border-color: #ff4500;
+  box-shadow: 0 0 15px rgba(255, 69, 0, 0.4);
+  border-radius: 15px;
+}
+
+
+/* Youtube Vid */
+.video-container {
+  margin: 30px 0;
+  border: 2px solid var(--chaser-orange);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  display: block;
+}
+
+
+/* Fact Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #333;
+}
+
+td {
+  padding: 15px;
+  border: 1px solid #333;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.table-label {
+  color: var(--chaser-orange);
+  font-weight: bold;
+  width: 30%;
+}
+
+
+/* Socials */
+.social-container {
+  margin-top: 40px; 
+  padding-bottom: 40px;
+  background-color: greenyellow;
+}
+
+.social-icons {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.social-icon svg {
+  fill: #ffffff; 
+  transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+.social-icon {
+  font-size: 45px; 
+  color: #ffffff;
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+#soundcloud_link:hover svg {
+  fill: #ff5500; 
+  transform: scale(1.2);
+}
+
+#instagram_link:hover svg {
+  fill: #e1306c; 
+    transform: scale(1.2);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  /* This points to the SVG filter ID above */
+  filter: url(#noiseFilter);
+  
+  /* Crucial: Lower opacity makes it a subtle texture 
+     rather than overwhelming static. Start at 0.05. */
+  opacity: 0.2;
+  
+  /* Ensure it stays on top but doesn't block clicks */
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.marquee {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden; /* Hides the text as it leaves the screen */
+  background: #ff5500; /* Use your brand orange */
+  color: #000; /* High contrast black text */
+  padding: 10px 0;
+  font-family: 'Your-Bold-Font', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 1px;
+  z-index: 1000;
+  white-space: nowrap;
+
+}
+
+body {
+  padding-top: 50px;  
+}
+
+.marquee-content {
+  display: flex;
+  white-space: nowrap;
+  animation: scroll 15s linear infinite; /* Adjust time for speed */
+}
+
+.marquee-content span {
+  padding-right: 50px; /* Space between the repeating phrases */
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Optional: Pause on hover so people can actually read it */
+.marquee:hover .marquee-content {
+  animation-play-state: paused;
+}
