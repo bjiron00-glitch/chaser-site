@@ -38,7 +38,7 @@ return (
           </button>
           {openId === 'upcoming-shows' && (
             <div className="accordion-content">
-              <a href="" target="_blank">May 9 | Atrium Music Lounge Warehouse Opening (Free with RSVP - More Info TBA)  Fort Collins, CO</a>
+              <a href="https://pear.us/basement-rave-mg/post/basement-rave-takeover?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcARhw7VleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAafcHnio-ogAVAoIwZmHzI_Gr2PSmlFheXOSI94QVY75iYqiig_gdbFwVpdaug_aem_Dt_tUE4FapK-MgzTVkDwPg" target="_blank">May 9 | Atrium Music Lounge Warehouse Opening (Free with RSVP)  Fort Collins, CO</a>
             </div>
           )}
         </div>
