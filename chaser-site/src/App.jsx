@@ -137,7 +137,7 @@ return (
       </div>
 
       {/* DID YOU KNOW TABLE */}
-      <h2>Did You Know?</h2>
+      <h2>House Music at a Glance</h2>
       <table className='diduknow'>
         <tbody>
           <tr>
