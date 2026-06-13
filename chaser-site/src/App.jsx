@@ -38,7 +38,7 @@ return (
           </button>
           {openId === 'upcoming-shows' && (
             <div className="accordion-content">
-              <a href="" target="_blank">4x4 at Atrium Music Lounge | 7/2 | Fort COllins, CO (More Info TBA)</a>
+              <a href="" target="_blank">4x4 at Atrium Music Lounge | 7/2 | Fort Collins, CO (More Info TBA)</a>
             </div>
           )}
         </div>
@@ -173,3 +173,5 @@ return (
 }
 
 export default App;
+
+{/*Running Local Site: cd chaser-site          npm run dev*/}
