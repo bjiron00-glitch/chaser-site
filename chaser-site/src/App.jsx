@@ -25,7 +25,7 @@ return (
           </button>
           {openId === 'mixes' && (
             <div className="accordion-content">
-              <a href="https://soundcloud.com/cellekta/cr8digs003?si=e7fe6d291ba0492e984c81d7db9a494c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">CR8DIGS003 W/ CHASER (a Cell Ekta Mix)</a>
+              <a href="https://youtu.be/A5d6nVsvOgM?si=0Rju9EJSDUn4EpKJ" target="_blank">Cell Ekta b2b CHASER - House on Tap @Breckenridge Brewery</a>
               <a href="https://soundcloud.com/cellekta/cell-ekta-b2b-chaser-atrium?si=a0b1b849588b4c25950a4eb97034b5af&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank">Cell Ekta b2b CHASER | Atrium Discovered Sessions</a>
             </div>
           )}
@@ -38,7 +38,7 @@ return (
           </button>
           {openId === 'upcoming-shows' && (
             <div className="accordion-content">
-              <a href="https://pear.us/basement-rave-mg/post/basement-rave-takeover?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcARhw7VleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAafcHnio-ogAVAoIwZmHzI_Gr2PSmlFheXOSI94QVY75iYqiig_gdbFwVpdaug_aem_Dt_tUE4FapK-MgzTVkDwPg" target="_blank">May 9 | Atrium Music Lounge Warehouse Opening (Free with RSVP)  Fort Collins, CO</a>
+              <a href="" target="_blank">4x4 at Atrium Music Lounge | 7/2 | Fort COllins, CO (More Info TBA)</a>
             </div>
           )}
         </div>
@@ -86,39 +86,40 @@ return (
         scrolling="no" 
         frameBorder="no" 
         allow="autoplay" 
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2295512798&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2224430696&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
         </iframe>
       <div 
         style={{
-        fontSize: '10px', 
+       fontSize: '10px',
         color: '#cccccc',
         lineBreak: 'anywhere',
         wordBreak: 'normal',
         overflow: 'hidden',
         whiteSpace: 'nowrap',
-        textOverflow: 'ellipsis', 
+        textOverflow: 'ellipsis',
         fontFamily: 'Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif',
-        fontWeight: 100
+        fontWeight: 100,
         }}>
         <a 
-          href="https://soundcloud.com/itsmsft" 
-          title="msft." 
-          target="_blank" 
-          rel="noreferrer" 
-          style={{ color: '#cccccc', textDecoration: 'none' }}
+          href="https://soundcloud.com/sport_mode"
+          title="Sport Mode"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: '#cccccc', textDecoration: 'none' }}
         >
-        msft.
-        </a> · 
-        <a 
-          href="https://soundcloud.com/itsmsft/reset-main-phase-remix-feat" 
-          title="Reset (Main Phase Remix) [feat. Killa P]" 
-          target="_blank" 
-          rel="noreferrer" 
-          style={{ color: '#cccccc', textDecoration: 'none' }}
-        >
-        Reset (Main Phase Remix) [feat. Killa P]
-        </a>
-      </div>
+        Sport Mode
+    </a>{' '}
+    ·{' '}
+    <a
+      href="https://soundcloud.com/sport_mode/return-2-sender-1"
+      title="Return 2 Sender"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ color: '#cccccc', textDecoration: 'none' }}
+    >
+      Return 2 Sender
+    </a>
+  </div>
       </div>
       )}
       </div>
