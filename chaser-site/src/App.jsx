@@ -38,7 +38,7 @@ return (
           </button>
           {openId === 'upcoming-shows' && (
             <div className="accordion-content">
-              <a href="" target="_blank">Foodhills Frequencies | 7/25 | Civic Center Park | Fort Collins, CO (Free Entry)</a>
+              <a href="" target="_blank">Foothills Frequencies | 7/25 | Civic Center Park | Fort Collins, CO (Free Entry)</a>
             </div>
           )}
         </div>
@@ -174,4 +174,8 @@ return (
 
 export default App;
 
-{/*Running Local Site: cd chaser-site          npm run dev*/}
+{/* Running Local Site: cd chaser-site          npm run dev*/}
+{/* pushing to site:
+1.) git add .
+2.) git commit -m "updates made"
+2.) git push origin main   */}
