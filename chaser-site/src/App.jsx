@@ -38,7 +38,7 @@ return (
           </button>
           {openId === 'upcoming-shows' && (
             <div className="accordion-content">
-              <a href="" target="_blank">4x4 at Atrium Music Lounge | 7/2 | Fort Collins, CO (More Info TBA)</a>
+              <a href="" target="_blank">Foodhills Frequencies | 7/25 | Civic Center Park | Fort Collins, CO (Free Entry)</a>
             </div>
           )}
         </div>
