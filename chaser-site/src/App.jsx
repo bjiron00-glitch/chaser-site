@@ -134,10 +134,16 @@ return (
 
       {/* YOUTUBE SECTION */}
       <div className="video-container">
-        <iframe width="560" height="315" src="https://youtu.be/A5d6nVsvOgM?si=iyQ_LQHZN638JkMh" 
-          title="Chaser & Cell Ekta | House on Tap" frameBorder="0" allowFullScreen>
-        </iframe>
-      </div>
+    <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/A5d6nVsvOgM?si=iyQ_LQHZN638JkMh"
+    title="Chaser & Cell Ekta | House on Tap"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerPolicy="strict-origin-when-cross-origin"
+    allowFullScreen
+    ></iframe>
+    </div>
 
       {/* DID YOU KNOW TABLE */}
       <h2>House Music at a Glance</h2>
