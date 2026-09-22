@@ -38,7 +38,7 @@ return (
           </button>
           {openId === 'upcoming-shows' && (
             <div className="accordion-content">
-              <a href="" target="_blank">Foothills Frequencies | 7/25 | Civic Center Park | Fort Collins, CO (Free Entry)</a>
+              <a href="https://46395.blackbaudhosting.com/46395/tickets?tab=2&txobjid=6b4ea314-1b81-483d-83e8-976b752e8340&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAae3vy-qtzjHN0E8PnKYepEIwQLdWSrN8cwY9wJht9K0e0vg03FzpeUW-ke0pg_aem_1DEw6U4MM1QfzYgeKVs-0w&utm_id=97760_v0_s00_e0_tv3" target="_blank">E/MERSION 360 Full Circle w/ Cell Ekta | 11/14 | Museum of Discovery | Fort Collins, CO (Code: PREMERSION for 25% off)</a>
             </div>
           )}
         </div>
@@ -74,55 +74,57 @@ return (
         </div> 
         
         
-       <div className="accordion-item">
-        <button className="accordion-header" onClick={() => toggle('tracks')}>
-        🎛️ What I'm Listening To <span>{openId === 'tracks' ? '−' : '+'}</span>
-        </button>
-        {openId === 'tracks' && (
-      <div className="accordion-content">
-        <iframe 
-        width="100%" 
-        height="300" 
-        scrolling="no" 
-        frameBorder="no" 
-        allow="autoplay" 
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2224430696&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-        </iframe>
-      <div 
+      <div className="accordion-item">
+  <button className="accordion-header" onClick={() => toggle('tracks')}>
+    🎛️ What I'm Listening To <span>{openId === 'tracks' ? '−' : '+'}</span>
+  </button>
+  {openId === 'tracks' && (
+    <div className="accordion-content">
+      <iframe
+        width="100%"
+        height="300"
+        scrolling="no"
+        frameBorder="0"
+        allow="autoplay; encrypted-media"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2387379471&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+      ></iframe>
+      <div
         style={{
-       fontSize: '10px',
-        color: '#cccccc',
-        lineBreak: 'anywhere',
-        wordBreak: 'normal',
-        overflow: 'hidden',
-        whiteSpace: 'nowrap',
-        textOverflow: 'ellipsis',
-        fontFamily: 'Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif',
-        fontWeight: 100,
-        }}>
-        <a 
-          href="https://soundcloud.com/sport_mode"
-          title="Sport Mode"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ color: '#cccccc', textDecoration: 'none' }}
+          fontSize: '10px',
+          color: '#cccccc',
+          lineBreak: 'anywhere',
+          wordBreak: 'normal',
+          overflow: 'hidden',
+          whiteSpace: 'nowrap',
+          textOverflow: 'ellipsis',
+          fontFamily:
+            'Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif',
+          fontWeight: 100,
+        }}
+      >
+        <a
+          href="https://soundcloud.com/skeptic212"
+          title="SKEPTIC"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: '#cccccc', textDecoration: 'none' }}
         >
-        Sport Mode
-    </a>{' '}
-    ·{' '}
-    <a
-      href="https://soundcloud.com/sport_mode/return-2-sender-1"
-      title="Return 2 Sender"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{ color: '#cccccc', textDecoration: 'none' }}
-    >
-      Return 2 Sender
-    </a>
-  </div>
+          SKEPTIC
+        </a>{' '}
+        ·{' '}
+        <a
+          href="https://soundcloud.com/skeptic212/want-u-back"
+          title="Want U Back"
+          target="_blank"
+          rel="noreferrer"
+          style={{ color: '#cccccc', textDecoration: 'none' }}
+        >
+          Want U Back
+        </a>
       </div>
-      )}
-      </div>
+    </div>
+  )}
+</div>
 
 
 
@@ -132,8 +134,8 @@ return (
 
       {/* YOUTUBE SECTION */}
       <div className="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/tWSo-GSA61s" 
-          title="CHASER - 4x4 at the Atrium - Live Set" frameBorder="0" allowFullScreen>
+        <iframe width="560" height="315" src="https://youtu.be/A5d6nVsvOgM?si=iyQ_LQHZN638JkMh" 
+          title="Chaser & Cell Ekta | House on Tap" frameBorder="0" allowFullScreen>
         </iframe>
       </div>
 
