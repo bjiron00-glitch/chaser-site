@@ -39,7 +39,9 @@ return (
           {openId === 'upcoming-shows' && (
             <div className="accordion-content">
               <a href="https://46395.blackbaudhosting.com/46395/tickets?tab=2&txobjid=6b4ea314-1b81-483d-83e8-976b752e8340&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAae3vy-qtzjHN0E8PnKYepEIwQLdWSrN8cwY9wJht9K0e0vg03FzpeUW-ke0pg_aem_1DEw6U4MM1QfzYgeKVs-0w&utm_id=97760_v0_s00_e0_tv3" target="_blank">E/MERSION 360 Full Circle w/ Cell Ekta | 11/14 | Museum of Discovery | Fort Collins, CO (Code: PREMERSION for 25% off)</a>
+              <a href="https://www.eventbrite.com/e/brmg-presents-dotsqrd-nov-7th-tickets-2002639791526" target="_blank">BRMG x DOTSQRD w/ TEDDY | 11/7 | Secret Location | Loveland, CO (Code: CHASER for 25% off)</a>
             </div>
+            
           )}
         </div>
 
