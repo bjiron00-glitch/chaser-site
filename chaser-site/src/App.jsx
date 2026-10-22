@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import logo from './chaserlogofixedtrans.svg';
+import logo from './svgchaserlogostar.svg';
 function App() {
   
   const [openId, setOpenId] = useState(null);
