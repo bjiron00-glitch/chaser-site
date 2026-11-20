@@ -38,8 +38,7 @@ return (
           </button>
           {openId === 'upcoming-shows' && (
             <div className="accordion-content">
-              <a href="https://46395.blackbaudhosting.com/46395/tickets?tab=2&txobjid=6b4ea314-1b81-483d-83e8-976b752e8340&utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAae3vy-qtzjHN0E8PnKYepEIwQLdWSrN8cwY9wJht9K0e0vg03FzpeUW-ke0pg_aem_1DEw6U4MM1QfzYgeKVs-0w&utm_id=97760_v0_s00_e0_tv3" target="_blank">E/MERSION 360 Full Circle w/ Cell Ekta | 11/14 | Museum of Discovery | Fort Collins, CO (Code: PREMERSION for 25% off)</a>
-              <a href="https://www.eventbrite.com/e/brmg-presents-dotsqrd-nov-7th-tickets-2002639791526" target="_blank">BRMG x DOTSQRD w/ TEDDY | 11/7 | Secret Location | Loveland, CO (Code: CHASER for 25% off)</a>
+              <a href="" target="_blank">TBA 🖤</a>
             </div>
             
           )}
@@ -88,7 +87,7 @@ return (
         scrolling="no"
         frameBorder="0"
         allow="autoplay; encrypted-media"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2387379471&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2287330571&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
       ></iframe>
       <div
         style={{
@@ -105,29 +104,28 @@ return (
         }}
       >
         <a
-          href="https://soundcloud.com/skeptic212"
-          title="SKEPTIC"
+          href="https://soundcloud.com/sallycberlin"
+          title="Sally C"
           target="_blank"
           rel="noreferrer"
           style={{ color: '#cccccc', textDecoration: 'none' }}
         >
-          SKEPTIC
+          Sally C
         </a>{' '}
         ·{' '}
         <a
-          href="https://soundcloud.com/skeptic212/want-u-back"
-          title="Want U Back"
+          href="https://soundcloud.com/sallycberlin/sally-c-live-golden-plains"
+          title="Sally C live @ Golden Plains Festival 2026"
           target="_blank"
           rel="noreferrer"
           style={{ color: '#cccccc', textDecoration: 'none' }}
         >
-          Want U Back
+          Sally C live @ Golden Plains Festival 2026
         </a>
       </div>
     </div>
   )}
 </div>
-
 
 
       </div>
