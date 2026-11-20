@@ -38,7 +38,7 @@ return (
           </button>
           {openId === 'upcoming-shows' && (
             <div className="accordion-content">
-              <a href="" target="_blank">TBA 🖤</a>
+              <a href="" target="_blank">TBA 🧡</a>
             </div>
             
           )}
